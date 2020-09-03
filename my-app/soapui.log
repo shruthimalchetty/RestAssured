@@ -1,0 +1,40 @@
+2020-09-03 23:51:25,834 WARN  [SoapUI] Missing folder [C:\Users\RahulDavuluri\Desktop\RestAssuredProject\my-app\ext] for external libraries
+2020-09-03 23:51:26,134 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\RahulDavuluri\soapui-settings.xml]
+2020-09-03 23:51:27,875 INFO  [WsdlProject] Loaded project from [file:/C:/Users/RahulDavuluri/Desktop/RestAssuredProject/my-app/Project-REST-soapui-project.xml]
+2020-09-03 23:51:28,707 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [Project REST]
+2020-09-03 23:51:28,709 INFO  [SoapUITestCaseRunner] Running Project [Project REST], runType = SEQUENTIAL
+2020-09-03 23:51:28,764 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [FlowBasedTesting]
+2020-09-03 23:51:28,814 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-09-03 23:51:28,909 INFO  [SoapUITestCaseRunner] running step [getAccessToken]
+2020-09-03 23:51:30,820 INFO  [log] ecb539c932c0b8c5bfaaca7b6abd6d7c7911d66c
+2020-09-03 23:51:30,831 INFO  [log] bearer ecb539c932c0b8c5bfaaca7b6abd6d7c7911d66c
+2020-09-03 23:51:30,877 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-09-03 23:51:30,878 INFO  [SoapUITestCaseRunner] running step [Login]
+2020-09-03 23:51:31,212 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-09-03 23:51:31,213 INFO  [SoapUITestCaseRunner] running step [Groovy Script]
+2020-09-03 23:51:31,761 INFO  [log] total number of rows has data =6
+2020-09-03 23:51:31,761 INFO  [log] total number of columns has data =4
+2020-09-03 23:51:31,828 INFO  [SoapUITestCaseRunner] running step [addCustomer]
+2020-09-03 23:51:32,277 INFO  [log] 1935
+2020-09-03 23:51:32,279 INFO  [SoapUITestCaseRunner] running step [getCustomer]
+2020-09-03 23:51:33,085 INFO  [log] [HTTP/1.1 200 OK]
+2020-09-03 23:51:33,108 INFO  [SoapUITestCaseRunner] running step [addCustomer]
+2020-09-03 23:51:33,558 INFO  [log] 1936
+2020-09-03 23:51:33,560 INFO  [SoapUITestCaseRunner] running step [getCustomer]
+2020-09-03 23:51:33,887 INFO  [log] [HTTP/1.1 200 OK]
+2020-09-03 23:51:33,888 INFO  [SoapUITestCaseRunner] running step [addCustomer]
+2020-09-03 23:51:34,271 INFO  [log] 1937
+2020-09-03 23:51:34,272 INFO  [SoapUITestCaseRunner] running step [getCustomer]
+2020-09-03 23:51:34,603 INFO  [log] [HTTP/1.1 200 OK]
+2020-09-03 23:51:34,640 INFO  [SoapUITestCaseRunner] running step [addCustomer]
+2020-09-03 23:51:34,967 INFO  [log] 1938
+2020-09-03 23:51:34,968 INFO  [SoapUITestCaseRunner] running step [getCustomer]
+2020-09-03 23:51:35,291 INFO  [log] [HTTP/1.1 200 OK]
+2020-09-03 23:51:35,292 INFO  [SoapUITestCaseRunner] running step [addCustomer]
+2020-09-03 23:51:35,609 INFO  [log] 1939
+2020-09-03 23:51:35,612 INFO  [SoapUITestCaseRunner] running step [getCustomer]
+2020-09-03 23:51:35,937 INFO  [log] [HTTP/1.1 200 OK]
+2020-09-03 23:51:35,939 INFO  [SoapUITestCaseRunner] running step [Logout]
+2020-09-03 23:51:36,319 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-09-03 23:51:36,325 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [FlowBasedTesting], time taken: 10253ms, status: FINISHED
+2020-09-03 23:51:36,328 INFO  [SoapUITestCaseRunner] Project [Project REST] finished with status [FINISHED] in 7608ms
